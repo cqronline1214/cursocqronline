@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Cuestionario-Números cuánticos</title>
+	<link rel="stylesheet" type="text/css" href="CSS/estilosCuests.css">
+</head>
+<body>
+	<header>
+		<h1>Custionario Química I</h1>
+		<p> <b>Números cuánticos</b></p>
+	</header>
+	<div class="container">
+		<section id="p0">
+			<h3>1- El Vanadio es un elemento metálico que se emplea para la elaboracion del acero inoxidable. Al respecto, determina los números cuánticos del penúltimo electrón de dicho elemento(3d³)</h3>
+			<label>
+				<input type="radio" value="1" name="p0" onclick="respuesta(0,this)">n=4, ℓ=0, m=0, s=+1/2 
+			</label>
+			<label>
+				<input type="radio" value="2" name="p0" onclick="respuesta(0,this)">n=3, ℓ=2, m=-1, s=+1/2
+			</label>
+			<label>
+				<input type="radio" value="3" name="p0" onclick="respuesta(0,this)">n=3, ℓ=2, m=+1, s=-1/2
+			</label>
+		</section>
+		<section id="p1">
+			<h3>2-¿Cuál de los siguientes tipos de orbitales tiene forma esférica?</h3>
+			<label>
+				<input type="radio" value="1" name="p1" onclick="respuesta(1,this)">f  
+			</label>
+			<label>
+				<input type="radio" value="2" name="p1" onclick="respuesta(1,this)">s
+			</label>
+			<label>
+				<input type="radio" value="3" name="p1" onclick="respuesta(1,this)">p 
+			</label>
+		</section>
+		<section id="p2">
+			<h3>3- Número cuántico que puede tomar los valores: 0,1,2,3 </h3>
+			<label>
+				<input type="radio" value="1" name="p2" onclick="respuesta(2,this)">n
+			</label>
+			<label>
+				<input type="radio" value="2" name="p2" onclick="respuesta(2,this)">ℓ
+			</label>
+			<label>
+				<input type="radio" value="3" name="p2" onclick="respuesta(2,this)">s
+			</label>
+		</section>
+		<section id="p3">
+			<h3>4- ¿Cuál de los siguientes subniveles no puede existir en el nivel 3?</h3>
+			<label>
+				<input type="radio" value="1" name="p3" onclick="respuesta(3,this)">3p
+			</label>
+			<label>
+				<input type="radio" value="2" name="p3" onclick="respuesta(3,this)">3s
+			</label>
+			<label>
+				<input type="radio" value="3" name="p3" onclick="respuesta(3,this)">3f
+			</label>
+		</section>
+		<section id="p4">
+			<h3>5- ¿Que valores puede asumir el numero cuántico de momento magnético (m) cuando el numero cuántico del momento angular (ℓ) es 1?</h3>
+			<label>
+				<input type="radio" value="1" name="p4" onclick="respuesta(4,this)"> -3, -2, -1, 0, 1, 2, 3
+
+			</label>
+			<label>
+				<input type="radio" value="2" name="p4" onclick="respuesta(4,this)">-2, -1, 0, 1, 2
+			</label>
+			<label>
+				<input type="radio" value="3" name="p4" onclick="respuesta(4,this)">-1, 0, 1
+			</label>
+		</section>
+		<section id="p5">
+			<h3>6- ¿Cuántos niveles ocupa el carbono con z=6?</h3>
+			<label>
+				<input type="radio" value="1" name="p5" onclick="respuesta(5,this)">3
+			</label>
+			<label>
+				<input type="radio" value="2" name="p5" onclick="respuesta(5,this)">2
+			</label>
+			<label>
+				<input type="radio" value="3" name="p5" onclick="respuesta(5,this)">4
+			</label>
+		</section>
+		<section id="p6">
+			<h3>7- con qué letras se denominan los numeros cuanticos</h3>
+			<label>
+				<input type="radio" value="1" name="p6" onclick="respuesta(6,this)">n, m, l, s 
+			</label>
+			<label>
+				<input type="radio" value="2" name="p6" onclick="respuesta(6,this)">k, l, n, m
+			</label>
+			<label>
+				<input type="radio" value="3" name="p6" onclick="respuesta(6,this)">s, p, d, f
+			</label>
+		</section>
+		<section id="p7">
+			<h3>8- Los números cuánticos del Carbono(z=6) son...</h3>
+			<label>
+				<input type="radio" value="1" name="p7" onclick="respuesta(7,this)">n=4, l=1, m=1, s=+1/2
+			</label>
+			<label>
+				<input type="radio" value="2" name="p7" onclick="respuesta(7,this)">n=2, l=1, m=-1, s=+1/2
+			</label>
+			<label>
+				<input type="radio" value="3" name="p7" onclick="respuesta(7,this)">n=5, l=0, m=-1, s=-1/2
+			</label>
+		</section>
+		<section id="p8">
+			<h3>9- El número cuantico <b>n</b>representa... </h3>
+			<label>
+				<input type="radio" value="1" name="p8" onclick="respuesta(8,this)">el niver energético en el que se encuentra(1, 2, 3, 4, 5, 6, 7)
+			</label>
+			<label>
+				<input type="radio" value="2" name="8" onclick="respuesta(8,this)">Orbital (s=0, p=1, d=2, f=3) 
+			</label>
+			<label>
+				<input type="radio" value="3" name="p8" onclick="respuesta(8,this)">magnetico (m=-1,0+1) 
+			</label>
+		</section>
+		<section id="p9">
+			<h3>10- El número cuantico ℓ representa...</h3>
+			<label>
+				<input type="radio" value="1" name="p9" onclick="respuesta(9,this)">el niver energético en el que se encuentra(1, 2, 3, 4, 5, 6, 7)
+			</label>
+			<label>
+				<input type="radio" value="2" name="p9" onclick="respuesta(9,this)">Orbital (s=0, p=1, d=2, f=3)
+			</label>
+			<label>
+				<input type="radio" value="3" name="p9" onclick="respuesta(9,this)">magnetico (m=-1,0+1)
+			</label>
+		</section>
+
+		<button onclick="corregir()">CORREGIR</button>
+		<h2>Cantidad acertadas:<span id="resultado"></span> </h2>
+		 <a href="numCuanticos.html"><button>REGRESAR A LA PAGINA ANTERIOR</button></a> 
+	</div>
+
+	<script src="archivos_js/quizNumCuanticos.js" type="text/javascript"></script>
+
+	<footer class="footer">
+		<div class="container">
+			<div class="footer-row">
+				<div class="footer-links">
+					<h4>CECyTE</h4>
+					<ul>
+						<li><a href="#"> Politicas de privacidad</a></li>
+						<li><a href="#"> Nosotros</a></li>
+					</ul>					
+				</div>
+
+				<div class="footer-links">
+					<h4>Nosotros</h4>
+					<ul>
+						<li><a href="#"> Annette 402</a></li>
+						<li><a href="#"> Derechos de autor</a></li>
+					</ul>					
+				</div>
+
+				<div class="footer-links">
+					<h4>Siguenos</h4>
+					<div class="social-links">
+						<a href="#">
+							<img src="images/ig.jpg" width="70px">
+						</a>							
+					</div>
+				 </div>	
+
+					<div class="footer-links">
+					 <h4>CECyTE pl 16 Mitla</h4>
+					 <ul>
+						<li><a href="#"><img src="images/logoCecyte.jpg" width="80px"></a></li>
+						
+					 </ul>
+					</div>					
+		  </div>
+		</div>
+	</footer>
+
+</body>
+</html>

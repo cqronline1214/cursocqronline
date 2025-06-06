@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Cuestionario-Sustancias Puras y Mezclas</title>
+	<link rel="stylesheet" type="text/css" href="CSS/estilosCuests.css">
+</head>
+<body>
+	<header>
+		<h1>Custionario Química I</h1>
+		<p> <b>Sustancias puras y mezclas</b></p>
+	</header>
+	<div class="container">
+		<section id="p0">
+			<h3>1-Las soluciones o disoluciones son:</h3>
+			<label>
+				<input type="radio" value="1" name="p0" onclick="respuesta(0,this)">Mezclas homogéneas
+			</label>
+			<label>
+				<input type="radio" value="2" name="p0" onclick="respuesta(0,this)">Mezclas heterogéneas
+			</label>
+			<label>
+				<input type="radio" value="3" name="p0" onclick="respuesta(0,this)">Otra 
+			</label>
+		</section>
+		<section id="p1">
+			<h3>2-Una mezcla de agua y sal es:</h3>
+			<label>
+				<input type="radio" value="1" name="p1" onclick="respuesta(1,this)">Una emulsión  
+			</label>
+			<label>
+				<input type="radio" value="2" name="p1" onclick="respuesta(1,this)">Una disolución
+			</label>
+			<label>
+				<input type="radio" value="3" name="p1" onclick="respuesta(1,this)">Una supensión 
+			</label>
+		</section>
+		<section id="p2">
+			<h3>3-Una mezcla de agua + arena + piedras es:</h3>
+			<label>
+				<input type="radio" value="1" name="p2" onclick="respuesta(2,this)">Heterogénea
+			</label>
+			<label>
+				<input type="radio" value="2" name="p2" onclick="respuesta(2,this)">Homogenea
+			</label>
+			<label>
+				<input type="radio" value="3" name="p2" onclick="respuesta(2,this)">Disolucion
+			</label>
+		</section>
+		<section id="p3">
+			<h3>4-La mezcla de agua y aceite es:</h3>
+			<label>
+				<input type="radio" value="1" name="p3" onclick="respuesta(3,this)">Una suspensión
+			</label>
+			<label>
+				<input type="radio" value="2" name="p3" onclick="respuesta(3,this)">Una emulsión
+			</label>
+			<label>
+				<input type="radio" value="3" name="p3" onclick="respuesta(3,this)">Una disolución
+			</label>
+		</section>
+		<section id="p4">
+			<h3>5-En una mezcla de agua y aceite ¿Por qué el aceite ha quedado arriba?</h3>
+			<label>
+				<input type="radio" value="1" name="p4" onclick="respuesta(4,this)">El agua tiene una menor densidad que el aceite
+			</label>
+			<label>
+				<input type="radio" value="2" name="p4" onclick="respuesta(4,this)">El aceite tiene una menor densidad que el agua
+			</label>
+			<label>
+				<input type="radio" value="3" name="p4" onclick="respuesta(4,this)">El aceite tiene una mayor densidad que el agua
+			</label>
+		</section>
+		<section id="p5">
+			<h3>6-¿Un pudín de pasas que tipo de mezcla es?</h3>
+			<label>
+				<input type="radio" value="1" name="p5" onclick="respuesta(5,this)">Homogénea
+			</label>
+			<label>
+				<input type="radio" value="2" name="p5" onclick="respuesta(5,this)">No es una mezcla
+			</label>
+			<label>
+				<input type="radio" value="3" name="p5" onclick="respuesta(5,this)">Heterogénea
+			</label>
+		</section>
+		<section id="p6">
+			<h3>7-¿Cuál es la diferencia entre disolución y coloide?</h3>
+			<label>
+				<input type="radio" value="1" name="p5" onclick="respuesta(6,this)">La disolución es homogénea y el coloide es heterogénea
+			</label>
+			<label>
+				<input type="radio" value="2" name="p5" onclick="respuesta(6,this)">La disolución es heterogénea y el coloide es homogénea
+			</label>
+			<label>
+				<input type="radio" value="3" name="p5" onclick="respuesta(6,this)">La disolución es una sustancia pura y el coloide es una mezcla
+			</label>
+		</section>
+		<section id="p7">
+			<h3>8-¿Qué son las sustancias puras?</h3>
+			<label>
+				<input type="radio" value="1" name="p5" onclick="respuesta(7,this)">Formada por más de una sustancia
+			</label>
+			<label>
+				<input type="radio" value="2" name="p5" onclick="respuesta(7,this)">Mezcla homogénea
+			</label>
+			<label>
+				<input type="radio" value="3" name="p5" onclick="respuesta(7,this)">Formada por una sustancia
+			</label>
+		</section>
+		<section id="p8">
+			<h3>9-¿Qué son las emulsiones?</h3>
+			<label>
+				<input type="radio" value="1" name="p5" onclick="respuesta(8,this)">Mezclas heterogéneas con apariencia homogénea
+			</label>
+			<label>
+				<input type="radio" value="2" name="p5" onclick="respuesta(8,this)">Mezclas homogéneas formadas por dos o más componentes
+			</label>
+			<label>
+				<input type="radio" value="3" name="p5" onclick="respuesta(8,this)">Un tipo de coloides que para mantener su forma homogénea necesita una sustancia llamada emulsionante
+			</label>
+		</section>
+		<section id="p9">
+			<h3>10-¿Qué metodo de separacion de mezclas se utiliza para separar líquidos inmisibles??</h3>
+			<label>
+				<input type="radio" value="1" name="p5" onclick="respuesta(9,this)">Decantación
+			</label>
+			<label>
+				<input type="radio" value="2" name="p5" onclick="respuesta(9,this)">Destilación
+			</label>
+			<label>
+				<input type="radio" value="3" name="p5" onclick="respuesta(9,this)">Filtración
+			</label>
+		</section>
+
+		<button onclick="corregir()">CORREGIR</button>
+		<h2>Cantidad acertadas:<span id="resultado"></span> </h2>
+		 <a href="sustanciasPurasyMezclas.html"><button>REGRESAR A LA PAGINA ANTERIOR</button></a> 
+	</div>
+
+	<script src="archivos_js/quizSusPyM.js" type="text/javascript"></script>
+
+	<footer class="footer">
+		<div class="container">
+			<div class="footer-row">
+				<div class="footer-links">
+					<h4>CECyTE</h4>
+					<ul>
+						<li><a href="#"> Politicas de privacidad</a></li>
+						<li><a href="#"> Nosotros</a></li>
+					</ul>					
+				</div>
+
+				<div class="footer-links">
+					<h4>Nosotros</h4>
+					<ul>
+						<li><a href="#"> Annette 402</a></li>
+						<li><a href="#"> Derechos de autor</a></li>
+					</ul>					
+				</div>
+
+				<div class="footer-links">
+					<h4>Siguenos</h4>
+					<div class="social-links">
+						<a href="#">
+							<img src="images/ig.jpg" width="70px">
+						</a>							
+					</div>
+				 </div>	
+
+					<div class="footer-links">
+					 <h4>CECyTE pl 16 Mitla</h4>
+					 <ul>
+						<li><a href="#"><img src="images/logoCecyte.jpg" width="80px"></a></li>
+						
+					 </ul>
+					</div>					
+		  </div>
+		</div>
+	</footer>
+
+</body>
+</html>

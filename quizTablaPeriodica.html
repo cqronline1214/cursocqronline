@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Cuestionario-Tabla periódica</title>
+	<link rel="stylesheet" type="text/css" href="CSS/estilosCuests.css">
+</head>
+<body>
+	<header>
+		<h1>Custionario Química I</h1>
+		<p> <b>Tabla peródica de los elementos</b></p>
+	</header>
+	<div class="container">
+		<section id="p0">
+			<h3>1-Es un registro de todos los elementos químicos.Los elementos están ordenados en forma de tabla según su número atómico (número de protones), su configuración electrónica y sus propiedades químicas.</h3>
+			<label>
+				<input type="radio" value="1" name="p0" onclick="respuesta(0,this)">Símbolos químicos
+			</label>
+			<label>
+				<input type="radio" value="2" name="p0" onclick="respuesta(0,this)">Número atómico
+			</label>
+			<label>
+				<input type="radio" value="3" name="p0" onclick="respuesta(0,this)">Tabla periódica
+			</label>
+		</section>
+		<section id="p1">
+			<h3>2-Número de grupos que contiene la tabla periódica</h3>
+			<label>
+				<input type="radio" value="1" name="p1" onclick="respuesta(1,this)">7  
+			</label>
+			<label>
+				<input type="radio" value="2" name="p1" onclick="respuesta(1,this)">18
+			</label>
+			<label>
+				<input type="radio" value="3" name="p1" onclick="respuesta(1,this)">4 
+			</label>
+		</section>
+		<section id="p2">
+			<h3>3-Las filas horizontales de la tabla periódica son llamadas:</h3>
+			<label>
+				<input type="radio" value="1" name="p2" onclick="respuesta(2,this)">Orbitales
+			</label>
+			<label>
+				<input type="radio" value="2" name="p2" onclick="respuesta(2,this)">Grupos
+			</label>
+			<label>
+				<input type="radio" value="3" name="p2" onclick="respuesta(2,this)">Periódos
+			</label>
+		</section>
+		<section id="p3">
+			<h3>4-En función del tipo de orbitales que se están llenando, la Tabla Periódica se divide en cuatro bloques fundamentales ¿Cuáles son?</h3>
+			<label>
+				<input type="radio" value="1" name="p3" onclick="respuesta(3,this)">Lantánidos-Actínidos-metales-no metales
+			</label>
+			<label>
+				<input type="radio" value="2" name="p3" onclick="respuesta(3,this)">s-d-p-f
+			</label>
+			<label>
+				<input type="radio" value="3" name="p3" onclick="respuesta(3,this)">n-l-m-s
+			</label>
+		</section>
+		<section id="p4">
+			<h3>5-Mala conductividad eléctrica(exepto el carbono en forma de grafito),Buenos aislantes térmicos,sin brillo metálico,Sólidos-liquidos y gaseosos, no dúctiles,forman aniones,son características de los:</h3>
+			<label>
+				<input type="radio" value="1" name="p4" onclick="respuesta(4,this)">No metales
+			</label>
+			<label>
+				<input type="radio" value="2" name="p4" onclick="respuesta(4,this)">Metales
+			</label>
+			<label>
+				<input type="radio" value="3" name="p4" onclick="respuesta(4,this)">Actínidos
+			</label>
+		</section>
+		<section id="p5">
+			<h3>6-Elementos que pertenecen al Grupo 11 (IB)</h3>
+			<label>
+				<input type="radio" value="1" name="p5" onclick="respuesta(5,this)">La familia del cobre (Cu): plata (Ag), oro (Au) 
+			</label>
+			<label>
+				<input type="radio" value="2" name="p5" onclick="respuesta(5,this)">)La familia del manganeso (Mn): renio (Re), tecnecio (Tc) 
+			</label>
+			<label>
+				<input type="radio" value="3" name="p5" onclick="respuesta(5,this)">La familia del zinc (Zn): cadmio (Cd), mercurio (Hg) 
+			</label>
+		</section>
+		<section id="p6">
+			<h3>7-Estos elementos de la tabla periódica pertenecen al periodo 5:</h3>
+			<label>
+				<input type="radio" value="1" name="p6" onclick="respuesta(6,this)">Na-Mg-Al-P
+			</label>
+			<label>
+				<input type="radio" value="2" name="p6" onclick="respuesta(6,this)">Fr-Ra-Rf-Sg
+			</label>
+			<label>
+				<input type="radio" value="3" name="p6" onclick="respuesta(6,this)">Rb-Sr-Ag-Cd
+			</label>
+		</section>
+		<section id="p7">
+			<h3>8-Son elementos que muestran propiedades típicas tanto de los metales como de los no metales(B, Si, Ge, As, Sb, Te, Po y At)</h3>
+			<label>
+				<input type="radio" value="1" name="p7" onclick="respuesta(7,this)">Lantánidos
+			</label>
+			<label>
+				<input type="radio" value="2" name="p7" onclick="respuesta(7,this)">Metaloides
+			</label>
+			<label>
+				<input type="radio" value="3" name="p7" onclick="respuesta(7,this)">Elementos de transición interna
+			</label>
+		</section>
+		<section id="p8">
+
+			<h3>9-Los gases nobles:helio (He), neón (Ne), argón (Ar), kriptón (Kr), xenón (Xe), radón (Rn), pertenecen al grupo:</h3>
+			<label>
+				<input type="radio" value="1" name="p5" onclick="respuesta(8,this)">18
+			</label>
+			<label>
+				<input type="radio" value="2" name="p5" onclick="respuesta(8,this)">12
+			</label>
+			<label>
+				<input type="radio" value="3" name="p5" onclick="respuesta(8,this)">4
+			</label>
+		</section>
+		<section id="p9">
+			<h3>10-De acuerdo a su estructura electronica,los Lantánidos y Actínidos pertenecen al bloque:</h3>
+			<label>
+				<input type="radio" value="1" name="p5" onclick="respuesta(9,this)">d
+			</label>
+			<label>
+				<input type="radio" value="2" name="p5" onclick="respuesta(9,this)">p
+			</label>
+			<label>
+				<input type="radio" value="3" name="p5" onclick="respuesta(9,this)">f
+			</label>
+		</section>
+
+		<button onclick="corregir()">CORREGIR</button>
+		<h2>Cantidad acertadas:<span id="resultado"></span> </h2>
+		 <a href="tablaPeriodica.html"><button>REGRESAR A LA PAGINA ANTERIOR</button></a> 
+	</div>
+
+	<script src="archivos_js/quizTablaPeriodica.js" type="text/javascript"></script>
+
+	<footer class="footer">
+		<div class="container">
+			<div class="footer-row">
+				<div class="footer-links">
+					<h4>CECyTE</h4>
+					<ul>
+						<li><a href="#"> Politicas de privacidad</a></li>
+						<li><a href="#"> Nosotros</a></li>
+					</ul>					
+				</div>
+
+				<div class="footer-links">
+					<h4>Nosotros</h4>
+					<ul>
+						<li><a href="#"> Annette 402</a></li>
+						<li><a href="#"> Derechos de autor</a></li>
+					</ul>					
+				</div>
+
+				<div class="footer-links">
+					<h4>Siguenos</h4>
+					<div class="social-links">
+						<a href="#">
+							<img src="images/ig.jpg" width="70px">
+						</a>							
+					</div>
+				 </div>	
+
+					<div class="footer-links">
+					 <h4>CECyTE pl 16 Mitla</h4>
+					 <ul>
+						<li><a href="#"><img src="images/logoCecyte.jpg" width="80px"></a></li>
+						
+					 </ul>
+					</div>					
+		  </div>
+		</div>
+	</footer>
+
+</body>
+</html>

@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Cuestionario - Modelos Atómicos</title>
+  <link rel="stylesheet" href="CSS/estilosCuests.css" />
+</head>
+<body>
+  <header>
+    <h1>Cuestionario Química I</h1>
+    <p><b>Modelos Atómicos</b></p>
+  </header>
+
+  <div class="container">
+    <form id="cuestionario" onsubmit="return false;">
+      <section id="p0">
+        <h3>1.- ¿Quién fue Demócrito?</h3>
+        <label><input type="radio" value="1" name="p0" />Un científico moderno que planteó la existencia de electrones</label>
+        <label><input type="radio" value="2" name="p0" />Un antiguo científico que planteó la existencia de protones</label>
+        <label><input type="radio" value="3" name="p0" />Un filósofo que planteó la existencia del átomo</label>
+      </section>
+
+      <section id="p1">
+        <h3>2.- ¿Cuál era la idea principal que planteaba Demócrito sobre la materia?</h3>
+        <label><input type="radio" value="1" name="p1" />La existencia de una partícula tan diminuta que constituya las bases de la materia denominada átomo </label>
+        <label><input type="radio" value="2" name="p1" />La existencia de la célula</label>
+        <label><input type="radio" value="3" name="p1" />La existencia de electrones </label>
+      </section>
+
+      <section id="p2">
+        <h3>3.- ¿Qué partícula descubrió Thompson con su experimento?</h3>
+        <label><input type="radio" value="1" name="p2" />Los neutrones</label>
+        <label><input type="radio" value="2" name="p2" />Los protones</label>
+        <label><input type="radio" value="3" name="p2" />Los electrones</label>
+      </section>
+
+      <section id="p3">
+        <h3>4.- ¿Cuál es el aporte a la teoría de Dalton a la teoría atómica?</h3>
+        <label><input type="radio" value="1" name="p3" />Realizar distintas investigaciones</label>
+        <label><input type="radio" value="2" name="p3" />Aportar con el descubrimiento del daltonismo</label>
+        <label><input type="radio" value="3" name="p3" />Comprobar científicamente la existencia del átomo</label>
+      </section>
+
+      <section id="p4">
+        <h3>5.- El modelo de Rutherford...</h3>
+        <label><input type="radio" value="1" name="p4" />Plantea que el átomo posee un núcleo</label>
+        <label><input type="radio" value="2" name="p4" />El átomo es una esfera neutra</label>
+        <label><input type="radio" value="3" name="p4" />El átomo es indivisible</label>
+      </section>
+
+      <section id="p5">
+        <h3>6.- Böhr plantea que...</h3>
+        <label><input type="radio" value="1" name="p5" />Existen las moléculas</label>
+        <label><input type="radio" value="2" name="p5" />Los electrones giran en órbitas y se ordenan en niveles energéticos</label>
+        <label><input type="radio" value="3" name="p5" />Los electrones se mueven desordenadamente alrededor del núcleo</label>
+      </section>
+
+      <section id="p6">
+        <h3>7.- ¿El neutrón, el electrón y el protón tienen la misma masa?</h3>
+        <label><input type="radio" value="1" name="p6" />Verdadero</label>
+        <label><input type="radio" value="2" name="p6" />Falso</label>
+        <label><input type="radio" value="3" name="p6" />Ninguna de las dos</label>
+      </section>
+
+      <section id="p7">
+        <h3>8.- ¿El modelo atómico de Thomson es análogo al sistema solar?</h3>
+        <label><input type="radio" value="1" name="p7" />Sí</label>
+        <label><input type="radio" value="2" name="p7" />No, el modelo atómico que guarda cierta similitud con el sistema solar es el de Bohr</label>
+        <label><input type="radio" value="3" name="p7" />No, el de Thomson es el de pudín de pasas</label>
+      </section>
+
+      <section id="p8">
+        <h3>9.- ¿Cuál de las siguientes frases no corresponde al modelo atómico propuesto por Rutherford?</h3>
+        <label><input type="radio" value="1" name="p8" />Propone el nuevo modelo nuclear</label>
+        <label><input type="radio" value="2" name="p8" />El núcleo posee carga positiva</label>
+        <label><input type="radio" value="3" name="p8" />Los electrones se desplazan alrededor del núcleo, tal como lo hacen los planetas alrededor del Sol</label>
+      </section>
+
+      <section id="p9">
+        <h3>10.- El modelo atómico cuántico define que los electrones giran alrededor del núcleo en zonas en las cuales es altamente probable encontrar un electrón, a estas zonas se les llama:</h3>
+        <label><input type="radio" value="1" name="p9" />Orbital</label>
+        <label><input type="radio" value="2" name="p9" />Órbita</label>
+        <label><input type="radio" value="3" name="p9" />Nivel de energía</label>
+      </section>
+
+      <button type="button" id="btnCorregir">CORREGIR</button>
+      <h2>Cantidad acertadas: <span id="resultado">0/10</span></h2>
+      <a href="modelosAtom.html"><button type="button">REGRESAR A LA PÁGINA ANTERIOR</button></a>
+    </form>
+  </div>
+
+  <script src="archivos_js/quizModAtomicos.js" type="text/javascript"></script>
+</body>
+</html>
